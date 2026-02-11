@@ -3,7 +3,12 @@
     "allow": [
       "Skill(commit-commands:commit-push-pr)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Shopify Ritual theme \\(v3.3.1\\)\n\nAdded complete Shopify Ritual theme structure including:\n- Assets \\(CSS, JS, SVG icons\\)\n- Blocks \\(reusable theme components\\)\n- Config \\(theme settings schema\\)\n- Layout templates\n- Locales \\(multi-language support\\)\n- Sections \\(theme sections\\)\n- Snippets \\(reusable code\\)\n- Templates \\(page templates\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh auth:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
