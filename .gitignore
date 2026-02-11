@@ -11,7 +11,6 @@ npm-debug.log
 yarn-error.log
 
 # Shopify
-config/settings_data.json
 .shopifyignore
 
 # Environment
