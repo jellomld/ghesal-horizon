@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Shopify
+config/settings_data.json
+.shopifyignore
+
+# Environment
+.env
+.env.local
